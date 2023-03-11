@@ -1,5 +1,8 @@
 import React from "react";
 import userData from "./data";
+import { AiFillGithub } from 'react-icons/ai';
+import Link from "next/link";
+import Gitbutton from "./Gitbutton";
 
 export default function Projects() {
   return (
@@ -16,9 +19,11 @@ export default function Projects() {
             <ProjectCard
               title={proj.title}
               link={proj.link}
+              repolink={proj.repolink}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
             />
+            
           ))}
         </div>
       </div>
@@ -26,11 +31,29 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+
+  
+  
+const ProjectCard = ({ title, link, repolink, imgUrl, number}) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
-      <div className="relative overflow-hidden">
-        <div className="h-72 object-cover">
+    <Link href={link} passHref={true}>
+    <section className="w-full block shadow-2xl">
+    
+      
+    
+      <div className="rounded relative overflow-hidden">
+      
+             
+  <Link href={repolink} passHref={true}>
+        <button  
+        className="mr-5 absolute bottom-5 right-0 z-10 bg-red-500 hover:bg-gray-300 border border-black text-black font-bold py-3 px-6 rounded-md"
+        >
+        <AiFillGithub/>
+        </button>
+      </Link>
+        
+      
+         <div className="h-72 object-cover">
           <img
             src={imgUrl}
             alt="portfolio"
@@ -40,10 +63,13 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+        <h1 className="absolute bottom-10 left-10 text-gray-500 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>
-    </a>
+    
+    
+    </section>
+    </Link>
   );
 };

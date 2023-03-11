@@ -8,10 +8,40 @@ const userData = {
     address: "Luton, United Kingdom.",
     projects: [
       {
-        title: "",
-        link: "",
-        deployedlink: "",
-        imgUrl: "/tmk.jpg",
+        title: "JavaScript Password Generator",
+        link: "http://rzepa000.github.io/password-generator",
+        repolink: "https://github.com/rzepa000/password-generator",
+        imgUrl: "/passgen.jpg",
+      },
+      {
+        title: "JavaScript Coding Quiz",
+        link: "https://rzepa000.github.io/code-quiz/",
+        repolink: "https://github.com/rzepa000/code-quiz",
+        imgUrl: "/quiz.jpg",
+      },
+      {
+        title: "JavaScript Daily Planner",
+        link: "https://rzepa000.github.io/daily-planner/",
+        repolink: "https://github.com/rzepa000/daily-planner",
+        imgUrl: "/planner.jpg",
+      },
+      {
+        title: "jQuery Weather Forecast",
+        link: "https://github.com/rzepa000/Weather-forecast-dashboard",
+        repolink: "https://github.com/rzepa000/Weather-forecast-dashboard",
+        imgUrl: "/weather.jpg",
+      },
+      {
+        title: "jQuery and API Starlight  Project",
+        link: "https://github.com/rzepa000/Starlight",
+        repolink: "https://m0hammedzaber.github.io/Starlight/",
+        imgUrl: "/starlight.jpg",
+      },
+      {
+        title: "Node.js Team Profile Generator",
+        link: "https://github.com/rzepa000/Team-profile-generator",
+        repolink: "https://github.com/rzepa000/Team-profile-generator",
+        imgUrl: "/teamgen.jpg",
       },
       
     ],
@@ -24,16 +54,7 @@ const userData = {
       currentProject: "Fitness Tracker App",
       currentProjectUrl: "",
     },
-    experience: [
-      {
-        title: "Dev",
-        company: "rzepa",
-        year: "2023",
-        companyLink: "hi.pl",
-        desc: "did something",
-      },
-      
-    ],
+    
     resumeUrl:
       "https://docs.google.com/document/d/1O4v1-c8kYlB5LvA5zMwfk4hpRjmZTMw6oJHM7A45zqg/edit?usp=sharing",
     socialLinks: {
