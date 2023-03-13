@@ -1,25 +1,31 @@
 import React from "react";
 import userData from "./data";
+import Swal from 'sweetalert2'
 
+export default function Contact() {
+  
 async function handleSubmit(e) {
   e.preventDefault();
   const data = new FormData(e.currentTarget);
   try {
-    const response = await fetch('/api/contact', {
+    const response = await fetch('/api/mail', {
       method: 'post',
       body: new URLSearchParams(data),
     });
     if (!response.ok) {
       throw new Error(`Invalid response: ${response.status}`);
     }
-    alert('Thanks for contacting us, we will get back to you soon!');
+    Swal.fire({
+      icon: 'success',
+      text:'Thanks for contacting us, we will get back to you soon!'
+    });
   } catch (err) {
     console.error(err);
-    alert("We can't submit the form, try again later?");
+    Swal.fire({
+      icon: 'error',
+      text: "We can't submit the form, please fill all required fields."});
   }
 }
-
-export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 light:bg-white dark:bg-gray-800 antialiased">
@@ -180,7 +186,7 @@ export default function Contact() {
           <form className="form rounded-lg bg-white p-4 flex flex-col" onSubmit={handleSubmit}>
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
-              Your Name
+              Your Name*
             </label>
             <input
               type="text"
@@ -188,7 +194,7 @@ export default function Contact() {
               name="name"
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
-              Email
+              Email*
             </label>
             <input
               type="text"
@@ -199,7 +205,7 @@ export default function Contact() {
               htmlFor="message"
               className="text-sm text-gray-600 mx-4 mt-4"
             >
-              Message
+              Message*
             </label>
             <textarea
               rows="4"
