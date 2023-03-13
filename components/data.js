@@ -27,19 +27,19 @@ const userData = {
       },
       {
         title: "jQuery Weather Forecast",
-        link: "https://github.com/rzepa000/Weather-forecast-dashboard",
+        link: "https://rzepa000.github.io/Weather-forecast-dashboard",
         repolink: "https://github.com/rzepa000/Weather-forecast-dashboard",
         imgUrl: "/weather.jpg",
       },
       {
         title: "jQuery and API Starlight  Project",
-        link: "https://github.com/rzepa000/Starlight",
-        repolink: "https://m0hammedzaber.github.io/Starlight/",
+        link: "https://m0hammedzaber.github.io/Starlight/",
+        repolink: "https://github.com/rzepa000/Starlight",
         imgUrl: "/starlight.jpg",
       },
       {
         title: "Node.js Team Profile Generator",
-        link: "https://github.com/rzepa000/Team-profile-generator",
+        link: "https://rzepa000.github.io/Team-profile-generator",
         repolink: "https://github.com/rzepa000/Team-profile-generator",
         imgUrl: "/teamgen.jpg",
       },
