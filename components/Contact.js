@@ -17,7 +17,7 @@ async function handleSubmit(e) {
     }
     Swal.fire({
       icon: 'success',
-      text:'Thanks for contacting us, we will get back to you soon!'
+      text:'Thanks for contacting me, we will get back to you soon!'
     });
   } catch (err) {
     console.error(err);
@@ -186,26 +186,28 @@ async function handleSubmit(e) {
           <form className="form rounded-lg bg-white p-4 flex flex-col" onSubmit={handleSubmit}>
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
-              Your Name*
+              Your Name
             </label>
             <input
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              required
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
-              Email*
+              Email
             </label>
             <input
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              required
             />
             <label
               htmlFor="message"
               className="text-sm text-gray-600 mx-4 mt-4"
             >
-              Message*
+              Message
             </label>
             <textarea
               rows="4"
