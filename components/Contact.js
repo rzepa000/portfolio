@@ -17,7 +17,7 @@ async function handleSubmit(e) {
     }
     Swal.fire({
       icon: 'success',
-      text:'Thanks for contacting me, we will get back to you soon!'
+      text:'Thanks for contacting me, I will get back to you soon!'
     });
   } catch (err) {
     console.error(err);

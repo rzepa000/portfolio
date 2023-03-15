@@ -56,7 +56,7 @@ const userData = {
     },
     
     resumeUrl:
-      "https://docs.google.com/document/d/1O4v1-c8kYlB5LvA5zMwfk4hpRjmZTMw6oJHM7A45zqg/edit?usp=sharing",
+      "https://drive.google.com/file/d/1XEbobPx8adDsBfW3jFI6TW7HVZ9J9FcB/view?usp=sharing",
     socialLinks: {
       instagram: "https://instagram.com/rzepka000",
       twitter: "https://twitter.com/rzepa8",
