@@ -22,11 +22,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`http://localhost:3000/${router.asPath}`}
+          content={`https://jrzepinski.com/${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`http://localhost:3000/${router.asPath}`}
+          href={`https://jrzepinski.com/${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Jakub Rzepinski" />
