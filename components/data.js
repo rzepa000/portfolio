@@ -43,6 +43,18 @@ const userData = {
         repolink: "https://github.com/rzepa000/Team-profile-generator",
         imgUrl: "/teamgen.jpg",
       },
+      {
+        title: "NextJS and TailwindCSS Portfolio",
+        link: "https://jrzepinski.com",
+        repolink: "https://github.com/rzepa000/portfolio",
+        imgUrl: "/jrzepinski.jpg",
+      },
+      {
+        title: "React Weight Tracking APP",
+        link: "https://gentle-licorice-8a4df1.netlify.app/",
+        repolink: "https://github.com/rzepa000/Weight-Tracker",
+        imgUrl: "/weighttrack.jpg",
+      },
       
     ],
     about: {
