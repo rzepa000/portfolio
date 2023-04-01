@@ -63,8 +63,8 @@ const userData = {
       description: [
         `I am Front-end developer with a passion for creating intuitive and engaging user experiences. Proficient in HTML, CSS, and JavaScript, with a focus on responsive design and cross-browser compatibility. Currently seeking entry-level or internship opportunities to further develop my skills and gain practical experience in the industry. Ready to bring my passion, creativity, and attention to detail to any project I work on. Confident in operating computers, fast typing, working in various teams and environments backed by experience, communicating with co-workers, management and Customers, providing the highest level of Customer Service. Reliable, systematic, punctual, resourceful, ambitious, creative, hard-working self-motivated, and eager to learn and grow as a developer. `,
         ],
-      currentProject: "Weight tracker App",
-      currentProjectUrl: "https://github.com/Bh00fie/Weight-Tracker",
+      currentProject: "Web Store app",
+      currentProjectUrl: "https://github.com/rzepa000/bakery_shop",
     },
     
     resumeUrl:
