@@ -23,7 +23,7 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
             <h1 className="text-4xl md:text-8xl font-bold light:text-gray-700 dark:text-gray-200 my-2">
-            Frontend
+            Web
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
