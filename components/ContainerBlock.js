@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Jakub Rzepinski - Front End Developer",
-    description: `I'm fresh out of bootcamp developer. Contact me to know more'`,
+    title: "Jakub Rzepinski - Web Development",
+    description: `Web designer based in Luton/London'`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,

@@ -7,8 +7,8 @@ import Hero from "../components/Hero";
 export default function Home() {
   return (
     <ContainerBlock
-      title="Jakub Rzepinski - Front End Developer"
-      description="My portfolio"
+      title="Jakub Rzepinski - Web Developer"
+      description="Web Designer based in Luton/ London"
     >
       <Hero />
       
